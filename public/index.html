@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigChek</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src='index.js'></script>  
+</head>
+<style>
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    button {
+        width: 200px;
+        padding: 30px;
+        margin-inline: auto;
+        border-radius: 24px;
+        border: none;
+        background-color: aquamarine;
+    }
+    video {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+</style>
+<body>
+    <h1>Welcome Viewer</h1>
+    <video autoplay id='video' width="600px" controls></video>
+    <button id="my-button">Watch Stream</button>
+</body>
+</html>
